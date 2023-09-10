@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>LOGOS - Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="logos, contacto, pedido, compra">
+    <meta name="description" content="Formulario de contacto de LOGOS">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logos1-png.png" type="image/x-icon">
+</head>
+
+<!--AGREGAR ELEMENTOS DE ACCESIBILIDADA Y REVISAR SEMÁNTICA-->
+<body>
+    <div class="main">
+        <header id="arriba-contacto">
+            <div class="logo">
+                <img src="/img/logos1-jpg.jpg" alt="logo" title="Logo de LOGOS">
+            </div>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="galeria.html">Galería</a>
+                                
+                <!--Enlace externo-->
+                <a href="https://ar.pinterest.com/analiaelisabeth/ideas-para-sublimar/" target="_blank" rel="noopener noreferrer">Ideas</a>
+            </nav>
+        </header>
+            <main>
+                <h1>Escríbenos para hacer tu pedido</h1>
+                    <br>
+                     <section> <!-- AGREGAR VALIDACIONES y lo que falta-->
+                        <article class="secc1-contacto">
+                            <div id="form">
+                                <form action="" method="get">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" name="nombre" id="nombre " minlength="3" required>
+                
+                                    <label for="apellido">Teléfono</label>
+                                    <input type="text" name="apellido" id="apellido"  minlength="3" required>
+                                    <br>
+                                    <br>
+                                    <label for="email">e-mail</label>
+                                    <input type="email" name="correo" id="correo" required>
+                                    <br>
+                                    <br>
+                                    <label for="consulta">Consulta</label>
+                                    <input type="consulta" name="consulta" id="consulta" maxlength="20" required>
+                                    <br>
+                                    <br>
+                                    <div id="botones-formulario">
+                                    <button type="submit">Enviar</button> - 
+                                    <button type="reset">Borrar datos ingresados</button>
+                            </div>
+                                </form>
+                        </article>
+                    </section>
+            </main>
+                <footer>
+                    <div>
+                        <!--COPYRIGHT-->
+                        <p>LOGOS - Sublimados y artículos personalizados - Copyright &copy; 2023 | <a href="#arriba-contacto" title="Volver a arriba">VOLVER A ARRIBA</a></p>
+                </footer>
+            </body>
+            </html>
