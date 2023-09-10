@@ -122,7 +122,7 @@ p {
 }
 
 #form {
-    display: block;
+    display: flex;
     font-size: x-large;
     border: #000;
     border-style:double;
@@ -130,9 +130,19 @@ p {
     padding: 20px;
 }
 
-label {
+label, input {
     color:  black;
     font-weight: bold;
+}
+
+.consulta, .nombre, .apellido, .email {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.email {
+    gap: 30px;
 }
 
 #botones-formulario {

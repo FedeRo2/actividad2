@@ -33,20 +33,31 @@
                         <article class="secc1-contacto">
                             <div id="form">
                                 <form action="" method="get">
-                                    <label for="nombre">Nombre</label>
-                                    <input type="text" name="nombre" id="nombre " minlength="3" required>
-                
-                                    <label for="apellido">Teléfono</label>
-                                    <input type="text" name="apellido" id="apellido"  minlength="3" required>
+                                    <div class="nombre">
+                                        <label for="nombre">Nombre</label>
+                                    <input type="text" name="nombre" id="nombre" minlength="3" required>
+                                    </div>
+                                    
                                     <br>
+                                    <div class="apellido">
+                                        <label for="apellido">Teléfono</label>
+                                    <input type="text" name="apellido" id="apellido" minlength="3" required>
+                                    </div>
+                                    
                                     <br>
-                                    <label for="email">e-mail</label>
+
+                                    <div class="email">
+                                        <label for="email">E-mail</label>
                                     <input type="email" name="correo" id="correo" required>
+                                    </div>
+                                    
                                     <br>
-                                    <br>
+
+                                    <div class="consulta">
                                     <label for="consulta">Consulta</label>
-                                    <input type="consulta" name="consulta" id="consulta" maxlength="20" required>
-                                    <br>
+                                    <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                                    </div>
+
                                     <br>
                                     <div id="botones-formulario">
                                     <button type="submit">Enviar</button> - 
