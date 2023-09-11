@@ -38,6 +38,17 @@ nav a {
     padding: 5px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
 .logo img {
    height: 80px;
    border: solid black;
@@ -54,6 +65,10 @@ nav a {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+}
+
+.index {
+    height: 100vh;
 }
 
 .secc-productos {
@@ -236,8 +251,15 @@ footer{
     padding: 10px;
 }
 
+
 footer a {
     background: none;
     text-align: center;
     padding: 10px;
+  }
+
+  @media screen and (min-width: 480px) {
+    .index {
+        height: auto;
+    }
   }
