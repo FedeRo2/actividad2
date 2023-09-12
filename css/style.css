@@ -1,16 +1,3 @@
-/* Actividad 2: Sitio Web Básico (fecha límite 28 ago, 23:59).
-Crear un sitio web (contenido a elección) de 3 o 4 páginas web (index, somos, servicios, productos, contacto) que incluya:
-* Etiquetas semánticas (html5).
-* Enlaces externos (según la temática elegida) e internos entre las páginas creadas
-* Al menos una imagen por página (html5).
-* Al menos una tabla pequeña con información de la temática.
-* Formulario de contacto (nombre, teléfono, email, consulta) con input correspondiente al tipo de información a enviar.
-
-(Registrarse en un hosting gratuito para subir este proyecto, según los sugeridos en la primer clase)
-La misma deberá respetar las convenciones propuestas en W3C https://www.w3schools.com/html/html5_semantic_elements.asp */
-
-/* https://colorhunt.co */
-
 
 * {
     margin: 0;
