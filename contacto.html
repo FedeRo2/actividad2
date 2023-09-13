@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="./img/logos1-png.png" type="image/x-icon">
 </head>
 
-<!--AGREGAR ELEMENTOS DE ACCESIBILIDADA Y REVISAR SEMÁNTICA-->
 <body>
     <div class="main">
         <header id="arriba-contacto">
@@ -20,17 +19,17 @@
                     </a>
             </div>
             <nav class="menu">
-                <a href="index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="galeria.html">Galería</a>
+                <a href="index.html" title="Volver al inicio de la página">Inicio</a>
+                <a href="productos.html" title="Ir a la tabla de los productos">Productos</a>
+                <a href="galeria.html" title="Ir a galería de los productos">Galería</a>
                                 
                 <!--Enlace externo-->
-                <a href="https://ar.pinterest.com/analiaelisabeth/ideas-para-sublimar/" target="_blank" rel="noopener noreferrer">Ideas</a>
+                <a href="https://ar.pinterest.com/analiaelisabeth/ideas-para-sublimar/" target="_blank" rel="noopener noreferrer" title="Ver Ideas para sublimar">Ideas</a>
             </nav>
         </header>
             <main>
                 <h1>Escríbenos para hacer tu pedido</h1>
-                     <section> <!-- AGREGAR VALIDACIONES y lo que falta-->
+                     <section>
                         <article class="secc1-contacto">
                             <div id="form">
                                 <form action="" method="get">
@@ -40,6 +39,7 @@
                                     </div>
                                     
                                     <br>
+                                    
                                     <div class="apellido">
                                         <label for="apellido">Teléfono</label>
                                     <input type="text" name="apellido" id="apellido" minlength="3" required>
@@ -60,6 +60,7 @@
                                     </div>
 
                                     <br>
+
                                     <div id="botones-formulario">
                                     <button type="submit">Enviar</button> - 
                                     <button type="reset">Borrar datos ingresados</button>
@@ -70,7 +71,7 @@
             </main>
                 <footer>
                     <div>
-                        <!--COPYRIGHT-->
+                        <!--Copyright y volver a arriba-->
                         <p>LOGOS - Sublimados y artículos personalizados - Copyright &copy; 2023 | <a href="#arriba-contacto" title="Volver a arriba">VOLVER A ARRIBA</a></p>
                 </footer>
             </body>
